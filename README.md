@@ -5,7 +5,7 @@
 
 # Example
 ```
-$kor = Korean;
+$kor = new Korean;
 $jamo = $kor->breakKorean('한글 자음/모음 분리');
 echo $jamo; // ㅎㅏㄴㄱㅡㄹㅈㅏㅇㅡㅁ/ㅁㅗㅇㅡㅁㅂㅜㄴㄹ
 ```
